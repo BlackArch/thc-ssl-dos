@@ -1,22 +1,19 @@
 
-A tool to stress test the SSL handshake by triggering processor intensive
+A tool to stress test the sslv3 handshake by triggering processor intensive
 RSA_encrypt() calls on the server side.
 
-See more documentation and paper at:
+Current home where documentation and paper can be requested
 
+https://github.com/vanhauser-thc/THC-Archive/tree/master/Exploits
 
-                    http://www.thc.org/thc-ssl-down
+First steps:
 
-COMPILE
-=======
-
-# ./configure
-# make all
-# src/thc-ssl-dos -h
-
+```bash
+ ./configure
+ make all
+ src/thc-ssl-dos -h
+```
 
 Yours sincerly,
 
 The Hackers Choice
-http://www.thc.org
-
