@@ -157,8 +157,9 @@ usage(void)
 {
 	fprintf(stderr, ""
 "./" PROGRAM_NAME " [options] <ip> <port>\n"
-"  -h      help\n"
-"  -l <n>  Limit parallel connections [default: %d]\n"
+"  -h        help\n"
+"  --accept  That you are a White Hat\n"
+"  -l <n>    Limit parallel connections [default: %d]\n"
 "", DEFAULT_PEERS);
 	exit(0);
 }
